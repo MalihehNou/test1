@@ -10,11 +10,12 @@ int main()
 {
 
 	Drawing::Shape c;
-	c.center.x = 1;
-	c.center.y = 2;
+	c.center.x = 20;
+	c.center.y = 15;
 	c.character = '-';
-	c.name = "Rectangle";
-	std::cout << c.toStream().str();
+	c.name = "Square";
+	c.parameter = 10;
+	//std::cout << c.toStream().str();
 	std::ofstream ofile("Hey.txt");
 	ofile << c.toStream().str();
 	ofile.close();
@@ -26,10 +27,8 @@ int main()
 	data << str;
 	c.fromStream(data);
 	
-	std::cout << "x: " << c.center.x << "\n" << "y: " << c.center.y << "\n" << "Character: " << c.character << "\n" << "Name: " << c.name << "\n";
+	//std::cout << "x: " << c.center.x << "\n" << "y: " << c.center.y << "\n" << "Side: " << c.parameter << "\n" << "Character: " << c.character << "\n" << "Name: " << c.name << "\n";
 
-	Square s;
-	s.drawSquare();
 
 	std::cin >> a;
 

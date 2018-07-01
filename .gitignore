@@ -1,2 +1,20 @@
 
 test1/Debug/vc141.idb
+.vs/test1/v15/.suo
+.vs/test1/v15/Browse.VC.db
+.vs/test1/v15/ipch/AutoPCH/129a0a941a205b1a/SOURCE.ipch
+.vs/test1/v15/ipch/AutoPCH/8629b8064279fffd/SQUARE.ipch
+.vs/test1/v15/ipch/AutoPCH/e99b3b91bc2fdff3/SHAPE.ipch
+Debug/test1.exe
+Debug/test1.ilk
+Debug/test1.pdb
+test1/Debug/Source.obj
+test1/Debug/test1.log
+test1/Debug/test1.tlog/CL.command.1.tlog
+test1/Debug/test1.tlog/CL.read.1.tlog
+test1/Debug/test1.tlog/CL.write.1.tlog
+test1/Debug/test1.tlog/link.command.1.tlog
+test1/Debug/test1.tlog/link.read.1.tlog
+test1/Debug/test1.tlog/link.write.1.tlog
+test1/Debug/test1.tlog/test1.lastbuildstate
+test1/Debug/vc141.pdb
